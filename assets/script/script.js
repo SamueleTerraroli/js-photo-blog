@@ -28,7 +28,7 @@ function printAlbum(title , url){
                         <img src="${url}" alt="${capitalizedTitle}">
                     </div>
                     <div class="text-section">
-                        <p class="image-description my-3">${capitalizedTitle}</p>
+                        <p class="image-description my-3 parisienne-regular">${capitalizedTitle}</p>
 
                     </div>
 
