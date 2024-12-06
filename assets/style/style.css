@@ -41,6 +41,11 @@ img{
     position: relative;
     background-color: white;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s ease, rotate 0.4s ease, scale 0.4s
+}
+.s-card:hover{
+    cursor: pointer;
+    transform: rotate(10deg) scale(1.2) ;
 }
 
 .s-card .text-section{
