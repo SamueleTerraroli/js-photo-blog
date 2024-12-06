@@ -37,7 +37,7 @@ function printAlbum(title , url){
 }
 
 function capitalizeFirstLetter(title){
-    return title.charAt(0).toUpperCase();
+    return title.charAt(0).toUpperCase() + title.slice(1);
 }
 
 
