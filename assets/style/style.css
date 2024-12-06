@@ -21,7 +21,7 @@ main{
     overflow: auto;
 }
 
-.overlay{
+#overlay{
     position: absolute;
     height: 100vh;
     background-color: rgba(0,0,0,0.6) ;
@@ -35,6 +35,8 @@ img{
     max-width: 100%;
 }
 
+
+/*CARD*/
 .s-card{
     max-width: 300px;
     padding: 10px ;
@@ -58,6 +60,8 @@ img{
     left: 50%;
     transform: translate(-50%);
 }
+
+
 /*FONT*/
 .parisienne-regular {
     font-family: "Parisienne", cursive;
