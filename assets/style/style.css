@@ -49,6 +49,9 @@ img{
     cursor: pointer;
     transform: rotate(10deg) scale(1.2) ;
 }
+.s-card:hover .pin{
+    display: none;
+}
 
 .s-card .text-section{
     height: 80px;
