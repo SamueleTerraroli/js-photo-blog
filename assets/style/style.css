@@ -21,16 +21,7 @@ main{
     overflow: auto;
 }
 
-#overlay{
-    position: absolute;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.6) ;
-    z-index: 100;
-    top: 0; 
-    left: 0; 
-    width: 100%;
-    padding: 20px;
-}
+
 
 img{
     max-width: 100%;
@@ -67,6 +58,20 @@ img{
 
 #enlarged-card .s-card { 
     transform: scale(1.5);
+}
+/*overlay*/
+#overlay{
+    position: absolute;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6) ;
+    z-index: 100;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    padding: 20px;
+}
+.btn{
+    margin-bottom: 150px;
 }
 
 
